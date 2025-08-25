@@ -13,7 +13,7 @@ packages = [{include = "demo_validateactions", from = "src"}]
 
 
 [tool.poetry.dependencies]
-validate-actions = {version = ">=0.1.3", source = "test"}
+validate-actions = "^1.0.4"
 
 
 [build-system]
