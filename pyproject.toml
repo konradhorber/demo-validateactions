@@ -1,0 +1,21 @@
+[project]
+name = "demo-validateactions"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "konradhorber",email = "konrad.horber@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+[tool.poetry]
+packages = [{include = "demo_validateactions", from = "src"}]
+
+
+[tool.poetry.dependencies]
+validate-actions = {version = ">=0.1.3", source = "test"}
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
